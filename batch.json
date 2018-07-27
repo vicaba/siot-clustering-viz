@@ -4,8 +4,8 @@
     "settings" : {
       "numberOfClusters" : 1,
       "points" : [ [ 0, 7, 7, 0 ], [ 11, 28, 12, 17 ], [ 10, 0, 10, 0 ], [ 1, 7, 8, 10 ], [ 7, 0, 0, 7 ], [ 0, 10, 0, 10 ], [ 8, 2, 0, 1 ], [ 1, 0, 2, 0 ], [ 4, 1, 3, 7 ], [ 0, 12, 12, 12 ] ],
-      "metric" : "par",
-      "times" : 100
+      "metric" : "par, par",
+      "times" : 10
     },
     "clusters" : [ {
       "id" : 0,
@@ -17,7 +17,7 @@
     "aggregatedMetric" : 1.1806167400881058
   }, {
     "settings" : {
-      "metric" : "par",
+      "metric" : "par, par",
       "improvement" : 0.5,
       "memory" : 3
     },
@@ -36,43 +36,43 @@
     "settings" : {
       "numberOfClusters" : 2,
       "points" : [ [ 0, 7, 7, 0 ], [ 11, 28, 12, 17 ], [ 10, 0, 10, 0 ], [ 1, 7, 8, 10 ], [ 7, 0, 0, 7 ], [ 0, 10, 0, 10 ], [ 8, 2, 0, 1 ], [ 1, 0, 2, 0 ], [ 4, 1, 3, 7 ], [ 0, 12, 12, 12 ] ],
-      "metric" : "par",
-      "times" : 200
+      "metric" : "par, par",
+      "times" : 20
     },
     "clusters" : [ {
       "id" : 0,
       "name" : "0",
-      "syntheticCenter" : [ 7, 7, 7, 7 ],
-      "points" : [ [ 0, 7, 7, 0 ], [ 7, 0, 0, 7 ] ],
-      "metric" : 1
+      "syntheticCenter" : [ 21, 10, 13, 25 ],
+      "points" : [ [ 1, 7, 8, 10 ], [ 7, 0, 0, 7 ], [ 1, 0, 2, 0 ], [ 4, 1, 3, 7 ], [ 8, 2, 0, 1 ] ],
+      "metric" : 1.4492753623188406
     }, {
       "id" : 1,
       "name" : "1",
-      "syntheticCenter" : [ 35, 60, 47, 57 ],
-      "points" : [ [ 1, 7, 8, 10 ], [ 11, 28, 12, 17 ], [ 0, 10, 0, 10 ], [ 10, 0, 10, 0 ], [ 1, 0, 2, 0 ], [ 4, 1, 3, 7 ], [ 0, 12, 12, 12 ], [ 8, 2, 0, 1 ] ],
-      "metric" : 1.2060301507537687
+      "syntheticCenter" : [ 21, 57, 41, 39 ],
+      "points" : [ [ 11, 28, 12, 17 ], [ 0, 7, 7, 0 ], [ 0, 10, 0, 10 ], [ 10, 0, 10, 0 ], [ 0, 12, 12, 12 ] ],
+      "metric" : 1.4430379746835442
     } ],
-    "aggregatedMetric" : 1.1030150753768844
+    "aggregatedMetric" : 1.0021565393885576
   }, {
     "settings" : {
-      "metric" : "par",
+      "metric" : "par, par",
       "improvement" : 0.5,
       "memory" : 3
     },
     "clusters" : [ {
       "id" : 0,
       "name" : "0",
-      "syntheticCenter" : [ 7, 7, 7, 7 ],
-      "points" : [ [ 0, 7, 7, 0 ], [ 7, 0, 0, 7 ] ],
-      "metric" : 1
+      "syntheticCenter" : [ 17, 16, 17, 19 ],
+      "points" : [ [ 1, 7, 8, 10 ], [ 3, 0, 4, 7 ], [ 4, 7, 3, 1 ], [ 1, 0, 2, 0 ], [ 8, 2, 0, 1 ] ],
+      "metric" : 1.1014492753623188
     }, {
       "id" : 1,
       "name" : "1",
-      "syntheticCenter" : [ 47, 55, 52, 45 ],
-      "points" : [ [ 1, 7, 8, 10 ], [ 11, 28, 12, 17 ], [ 10, 0, 10, 0 ], [ 0, 5, 5, 10 ], [ 1, 0, 2, 0 ], [ 4, 1, 3, 7 ], [ 12, 12, 12, 0 ], [ 8, 2, 0, 1 ] ],
-      "metric" : 1.1055276381909547
+      "syntheticCenter" : [ 33, 46, 34, 45 ],
+      "points" : [ [ 0, 7, 7, 0 ], [ 10, 0, 10, 0 ], [ 0, 10, 5, 5 ], [ 12, 12, 0, 12 ], [ 11, 17, 12, 28 ] ],
+      "metric" : 1.1645569620253164
     } ],
-    "aggregatedMetric" : 1.0527638190954773
+    "aggregatedMetric" : 1.0278497409326426
   } ]
 }, {
   "run" : 2,
@@ -80,55 +80,55 @@
     "settings" : {
       "numberOfClusters" : 3,
       "points" : [ [ 0, 7, 7, 0 ], [ 11, 28, 12, 17 ], [ 10, 0, 10, 0 ], [ 1, 7, 8, 10 ], [ 7, 0, 0, 7 ], [ 0, 10, 0, 10 ], [ 8, 2, 0, 1 ], [ 1, 0, 2, 0 ], [ 4, 1, 3, 7 ], [ 0, 12, 12, 12 ] ],
-      "metric" : "par",
-      "times" : 300
+      "metric" : "par, par",
+      "times" : 30
     },
     "clusters" : [ {
       "id" : 0,
       "name" : "0",
-      "syntheticCenter" : [ 10, 10, 10, 10 ],
-      "points" : [ [ 0, 10, 0, 10 ], [ 10, 0, 10, 0 ] ],
-      "metric" : 1
+      "syntheticCenter" : [ 25, 46, 32, 34 ],
+      "points" : [ [ 11, 28, 12, 17 ], [ 0, 7, 7, 0 ], [ 0, 10, 0, 10 ], [ 10, 0, 10, 0 ], [ 4, 1, 3, 7 ] ],
+      "metric" : 1.3430656934306568
     }, {
       "id" : 1,
       "name" : "1",
-      "syntheticCenter" : [ 7, 7, 7, 7 ],
-      "points" : [ [ 7, 0, 0, 7 ], [ 0, 7, 7, 0 ] ],
-      "metric" : 1
+      "syntheticCenter" : [ 17, 9, 10, 18 ],
+      "points" : [ [ 8, 2, 0, 1 ], [ 1, 7, 8, 10 ], [ 7, 0, 0, 7 ], [ 1, 0, 2, 0 ] ],
+      "metric" : 1.3333333333333333
     }, {
       "id" : 2,
       "name" : "2",
-      "syntheticCenter" : [ 25, 50, 37, 47 ],
-      "points" : [ [ 1, 7, 8, 10 ], [ 11, 28, 12, 17 ], [ 1, 0, 2, 0 ], [ 4, 1, 3, 7 ], [ 0, 12, 12, 12 ], [ 8, 2, 0, 1 ] ],
-      "metric" : 1.2578616352201257
+      "syntheticCenter" : [ 0, 12, 12, 12 ],
+      "points" : [ [ 0, 12, 12, 12 ] ],
+      "metric" : 1.3333333333333333
     } ],
-    "aggregatedMetric" : 1.0859538784067084
+    "aggregatedMetric" : 1.0048543689320388
   }, {
     "settings" : {
-      "metric" : "par",
+      "metric" : "par, par",
       "improvement" : 0.5,
       "memory" : 3
     },
     "clusters" : [ {
       "id" : 0,
       "name" : "0",
-      "syntheticCenter" : [ 10, 10, 10, 10 ],
-      "points" : [ [ 0, 10, 0, 10 ], [ 10, 0, 10, 0 ] ],
-      "metric" : 1
+      "syntheticCenter" : [ 42, 35, 32, 28 ],
+      "points" : [ [ 0, 7, 7, 0 ], [ 0, 10, 0, 10 ], [ 10, 0, 10, 0 ], [ 28, 17, 12, 11 ], [ 4, 1, 3, 7 ] ],
+      "metric" : 1.2262773722627738
     }, {
       "id" : 1,
       "name" : "1",
-      "syntheticCenter" : [ 7, 7, 7, 7 ],
-      "points" : [ [ 7, 0, 0, 7 ], [ 0, 7, 7, 0 ] ],
-      "metric" : 1
+      "syntheticCenter" : [ 14, 12, 13, 15 ],
+      "points" : [ [ 8, 2, 0, 1 ], [ 1, 7, 8, 10 ], [ 1, 0, 2, 0 ], [ 4, 3, 3, 4 ] ],
+      "metric" : 1.1111111111111112
     }, {
       "id" : 2,
       "name" : "2",
-      "syntheticCenter" : [ 40, 40, 39, 40 ],
-      "points" : [ [ 11, 28, 12, 17 ], [ 5, 7, 8, 6 ], [ 0, 2, 0, 1 ], [ 12, 0, 12, 12 ], [ 4, 1, 7, 3 ], [ 8, 2, 0, 1 ] ],
-      "metric" : 1.0062893081761006
+      "syntheticCenter" : [ 0, 12, 12, 12 ],
+      "points" : [ [ 0, 12, 12, 12 ] ],
+      "metric" : 1.3333333333333333
     } ],
-    "aggregatedMetric" : 1.0020964360587001
+    "aggregatedMetric" : 1.089703932832523
   } ]
 }, {
   "run" : 3,
@@ -136,67 +136,67 @@
     "settings" : {
       "numberOfClusters" : 4,
       "points" : [ [ 0, 7, 7, 0 ], [ 11, 28, 12, 17 ], [ 10, 0, 10, 0 ], [ 1, 7, 8, 10 ], [ 7, 0, 0, 7 ], [ 0, 10, 0, 10 ], [ 8, 2, 0, 1 ], [ 1, 0, 2, 0 ], [ 4, 1, 3, 7 ], [ 0, 12, 12, 12 ] ],
-      "metric" : "par",
-      "times" : 400
+      "metric" : "par, par",
+      "times" : 40
     },
     "clusters" : [ {
       "id" : 0,
       "name" : "0",
-      "syntheticCenter" : [ 7, 7, 7, 7 ],
-      "points" : [ [ 0, 7, 7, 0 ], [ 7, 0, 0, 7 ] ],
-      "metric" : 1
+      "syntheticCenter" : [ 19, 37, 19, 18 ],
+      "points" : [ [ 11, 28, 12, 17 ], [ 8, 2, 0, 1 ], [ 0, 7, 7, 0 ] ],
+      "metric" : 1.5913978494623655
     }, {
       "id" : 1,
       "name" : "1",
-      "syntheticCenter" : [ 10, 22, 22, 22 ],
-      "points" : [ [ 0, 10, 0, 10 ], [ 10, 0, 10, 0 ], [ 0, 12, 12, 12 ] ],
-      "metric" : 1.1578947368421053
+      "syntheticCenter" : [ 0, 22, 12, 22 ],
+      "points" : [ [ 0, 12, 12, 12 ], [ 0, 10, 0, 10 ] ],
+      "metric" : 1.5714285714285714
     }, {
       "id" : 2,
       "name" : "2",
-      "syntheticCenter" : [ 10, 9, 10, 11 ],
-      "points" : [ [ 8, 2, 0, 1 ], [ 1, 7, 8, 10 ], [ 1, 0, 2, 0 ] ],
-      "metric" : 1.1
+      "syntheticCenter" : [ 14, 1, 13, 7 ],
+      "points" : [ [ 4, 1, 3, 7 ], [ 10, 0, 10, 0 ] ],
+      "metric" : 1.6
     }, {
       "id" : 3,
       "name" : "3",
-      "syntheticCenter" : [ 15, 29, 15, 24 ],
-      "points" : [ [ 4, 1, 3, 7 ], [ 11, 28, 12, 17 ] ],
-      "metric" : 1.3975903614457832
+      "syntheticCenter" : [ 9, 7, 10, 17 ],
+      "points" : [ [ 1, 7, 8, 10 ], [ 7, 0, 0, 7 ], [ 1, 0, 2, 0 ] ],
+      "metric" : 1.5813953488372092
     } ],
-    "aggregatedMetric" : 1.1638712745719721
+    "aggregatedMetric" : 1.0087919735936728
   }, {
     "settings" : {
-      "metric" : "par",
+      "metric" : "par, par",
       "improvement" : 0.5,
       "memory" : 3
     },
     "clusters" : [ {
       "id" : 0,
       "name" : "0",
-      "syntheticCenter" : [ 7, 7, 7, 7 ],
-      "points" : [ [ 0, 7, 7, 0 ], [ 7, 0, 0, 7 ] ],
-      "metric" : 1
+      "syntheticCenter" : [ 19, 26, 20, 28 ],
+      "points" : [ [ 0, 7, 7, 0 ], [ 11, 17, 12, 28 ], [ 8, 2, 1, 0 ] ],
+      "metric" : 1.2043010752688172
     }, {
       "id" : 1,
       "name" : "1",
-      "syntheticCenter" : [ 10, 22, 22, 22 ],
-      "points" : [ [ 0, 10, 0, 10 ], [ 10, 0, 10, 0 ], [ 0, 12, 12, 12 ] ],
-      "metric" : 1.1578947368421053
+      "syntheticCenter" : [ 5, 17, 17, 17 ],
+      "points" : [ [ 0, 12, 12, 12 ], [ 5, 5, 5, 5 ] ],
+      "metric" : 1.2142857142857142
     }, {
       "id" : 2,
       "name" : "2",
-      "syntheticCenter" : [ 10, 9, 10, 11 ],
-      "points" : [ [ 8, 2, 0, 1 ], [ 1, 7, 8, 10 ], [ 1, 0, 2, 0 ] ],
-      "metric" : 1.1
+      "syntheticCenter" : [ 9, 6, 8, 12 ],
+      "points" : [ [ 4, 1, 3, 7 ], [ 5, 5, 5, 5 ] ],
+      "metric" : 1.3714285714285714
     }, {
       "id" : 3,
       "name" : "3",
-      "syntheticCenter" : [ 15, 29, 15, 24 ],
-      "points" : [ [ 4, 1, 3, 7 ], [ 11, 28, 12, 17 ] ],
-      "metric" : 1.3975903614457832
+      "syntheticCenter" : [ 10, 11, 11, 11 ],
+      "points" : [ [ 1, 7, 8, 10 ], [ 7, 4, 3, 0 ], [ 2, 0, 0, 1 ] ],
+      "metric" : 1.0232558139534884
     } ],
-    "aggregatedMetric" : 1.1638712745719721
+    "aggregatedMetric" : 1.1397060515267048
   } ]
 }, {
   "run" : 4,
@@ -204,79 +204,79 @@
     "settings" : {
       "numberOfClusters" : 5,
       "points" : [ [ 0, 7, 7, 0 ], [ 11, 28, 12, 17 ], [ 10, 0, 10, 0 ], [ 1, 7, 8, 10 ], [ 7, 0, 0, 7 ], [ 0, 10, 0, 10 ], [ 8, 2, 0, 1 ], [ 1, 0, 2, 0 ], [ 4, 1, 3, 7 ], [ 0, 12, 12, 12 ] ],
-      "metric" : "par",
-      "times" : 500
+      "metric" : "par, par",
+      "times" : 50
     },
     "clusters" : [ {
       "id" : 0,
       "name" : "0",
-      "syntheticCenter" : [ 0, 12, 12, 12 ],
-      "points" : [ [ 0, 12, 12, 12 ] ],
-      "metric" : 1.3333333333333333
+      "syntheticCenter" : [ 14, 1, 13, 7 ],
+      "points" : [ [ 4, 1, 3, 7 ], [ 10, 0, 10, 0 ] ],
+      "metric" : 1.6
     }, {
       "id" : 1,
       "name" : "1",
-      "syntheticCenter" : [ 7, 7, 7, 7 ],
-      "points" : [ [ 0, 7, 7, 0 ], [ 7, 0, 0, 7 ] ],
-      "metric" : 1
+      "syntheticCenter" : [ 15, 12, 0, 18 ],
+      "points" : [ [ 8, 2, 0, 1 ], [ 0, 10, 0, 10 ], [ 7, 0, 0, 7 ] ],
+      "metric" : 1.6
     }, {
       "id" : 2,
       "name" : "2",
-      "syntheticCenter" : [ 15, 29, 15, 24 ],
-      "points" : [ [ 4, 1, 3, 7 ], [ 11, 28, 12, 17 ] ],
-      "metric" : 1.3975903614457832
+      "syntheticCenter" : [ 0, 19, 19, 12 ],
+      "points" : [ [ 0, 12, 12, 12 ], [ 0, 7, 7, 0 ] ],
+      "metric" : 1.52
     }, {
       "id" : 3,
       "name" : "3",
-      "syntheticCenter" : [ 10, 10, 10, 10 ],
-      "points" : [ [ 0, 10, 0, 10 ], [ 10, 0, 10, 0 ] ],
-      "metric" : 1
+      "syntheticCenter" : [ 1, 7, 8, 10 ],
+      "points" : [ [ 1, 7, 8, 10 ] ],
+      "metric" : 1.5384615384615385
     }, {
       "id" : 4,
       "name" : "4",
-      "syntheticCenter" : [ 10, 9, 10, 11 ],
-      "points" : [ [ 8, 2, 0, 1 ], [ 1, 7, 8, 10 ], [ 1, 0, 2, 0 ] ],
-      "metric" : 1.1
+      "syntheticCenter" : [ 12, 28, 14, 17 ],
+      "points" : [ [ 11, 28, 12, 17 ], [ 1, 0, 2, 0 ] ],
+      "metric" : 1.5774647887323943
     } ],
-    "aggregatedMetric" : 1.1661847389558233
+    "aggregatedMetric" : 1.0209386441315385
   }, {
     "settings" : {
-      "metric" : "par",
+      "metric" : "par, par",
       "improvement" : 0.5,
       "memory" : 3
     },
     "clusters" : [ {
       "id" : 0,
       "name" : "0",
-      "syntheticCenter" : [ 0, 12, 12, 12 ],
-      "points" : [ [ 0, 12, 12, 12 ] ],
-      "metric" : 1.3333333333333333
+      "syntheticCenter" : [ 9, 6, 8, 12 ],
+      "points" : [ [ 4, 1, 3, 7 ], [ 5, 5, 5, 5 ] ],
+      "metric" : 1.3714285714285714
     }, {
       "id" : 1,
       "name" : "1",
-      "syntheticCenter" : [ 7, 7, 7, 7 ],
-      "points" : [ [ 0, 7, 7, 0 ], [ 7, 0, 0, 7 ] ],
-      "metric" : 1
+      "syntheticCenter" : [ 15, 12, 7, 11 ],
+      "points" : [ [ 8, 2, 0, 1 ], [ 0, 10, 0, 10 ], [ 7, 0, 7, 0 ] ],
+      "metric" : 1.3333333333333333
     }, {
       "id" : 2,
       "name" : "2",
-      "syntheticCenter" : [ 15, 29, 15, 24 ],
-      "points" : [ [ 4, 1, 3, 7 ], [ 11, 28, 12, 17 ] ],
-      "metric" : 1.3975903614457832
+      "syntheticCenter" : [ 15, 16, 4, 15 ],
+      "points" : [ [ 3, 4, 4, 3 ], [ 12, 12, 0, 12 ] ],
+      "metric" : 1.28
     }, {
       "id" : 3,
       "name" : "3",
-      "syntheticCenter" : [ 10, 10, 10, 10 ],
-      "points" : [ [ 0, 10, 0, 10 ], [ 10, 0, 10, 0 ] ],
-      "metric" : 1
+      "syntheticCenter" : [ 5, 7, 8, 6 ],
+      "points" : [ [ 5, 7, 8, 6 ] ],
+      "metric" : 1.2307692307692308
     }, {
       "id" : 4,
       "name" : "4",
-      "syntheticCenter" : [ 10, 9, 10, 11 ],
-      "points" : [ [ 8, 2, 0, 1 ], [ 1, 7, 8, 10 ], [ 1, 0, 2, 0 ] ],
-      "metric" : 1.1
+      "syntheticCenter" : [ 12, 28, 14, 17 ],
+      "points" : [ [ 11, 28, 12, 17 ], [ 1, 0, 2, 0 ] ],
+      "metric" : 1.5774647887323943
     } ],
-    "aggregatedMetric" : 1.1661847389558233
+    "aggregatedMetric" : 1.1610965223002228
   } ]
 }, {
   "run" : 5,
@@ -284,90 +284,90 @@
     "settings" : {
       "numberOfClusters" : 6,
       "points" : [ [ 0, 7, 7, 0 ], [ 11, 28, 12, 17 ], [ 10, 0, 10, 0 ], [ 1, 7, 8, 10 ], [ 7, 0, 0, 7 ], [ 0, 10, 0, 10 ], [ 8, 2, 0, 1 ], [ 1, 0, 2, 0 ], [ 4, 1, 3, 7 ], [ 0, 12, 12, 12 ] ],
-      "metric" : "par",
-      "times" : 600
+      "metric" : "par, par",
+      "times" : 60
     },
     "clusters" : [ {
       "id" : 0,
       "name" : "0",
-      "syntheticCenter" : [ 4, 1, 3, 7 ],
-      "points" : [ [ 4, 1, 3, 7 ] ],
-      "metric" : 1.8666666666666667
+      "syntheticCenter" : [ 12, 3, 3, 8 ],
+      "points" : [ [ 8, 2, 0, 1 ], [ 4, 1, 3, 7 ] ],
+      "metric" : 1.8461538461538463
     }, {
       "id" : 5,
       "name" : "5",
-      "syntheticCenter" : [ 7, 7, 7, 7 ],
-      "points" : [ [ 0, 7, 7, 0 ], [ 7, 0, 0, 7 ] ],
-      "metric" : 1
+      "syntheticCenter" : [ 7, 0, 0, 7 ],
+      "points" : [ [ 7, 0, 0, 7 ] ],
+      "metric" : 2
     }, {
       "id" : 1,
       "name" : "1",
-      "syntheticCenter" : [ 10, 9, 10, 11 ],
-      "points" : [ [ 8, 2, 0, 1 ], [ 1, 7, 8, 10 ], [ 1, 0, 2, 0 ] ],
-      "metric" : 1.1
+      "syntheticCenter" : [ 0, 7, 7, 0 ],
+      "points" : [ [ 0, 7, 7, 0 ] ],
+      "metric" : 2
     }, {
       "id" : 2,
       "name" : "2",
-      "syntheticCenter" : [ 10, 10, 10, 10 ],
-      "points" : [ [ 0, 10, 0, 10 ], [ 10, 0, 10, 0 ] ],
-      "metric" : 1
+      "syntheticCenter" : [ 13, 47, 34, 39 ],
+      "points" : [ [ 11, 28, 12, 17 ], [ 1, 7, 8, 10 ], [ 1, 0, 2, 0 ], [ 0, 12, 12, 12 ] ],
+      "metric" : 1.413533834586466
     }, {
       "id" : 3,
       "name" : "3",
-      "syntheticCenter" : [ 11, 28, 12, 17 ],
-      "points" : [ [ 11, 28, 12, 17 ] ],
-      "metric" : 1.6470588235294117
+      "syntheticCenter" : [ 0, 10, 0, 10 ],
+      "points" : [ [ 0, 10, 0, 10 ] ],
+      "metric" : 2
     }, {
       "id" : 4,
       "name" : "4",
-      "syntheticCenter" : [ 0, 12, 12, 12 ],
-      "points" : [ [ 0, 12, 12, 12 ] ],
-      "metric" : 1.3333333333333333
+      "syntheticCenter" : [ 10, 0, 10, 0 ],
+      "points" : [ [ 10, 0, 10, 0 ] ],
+      "metric" : 2
     } ],
-    "aggregatedMetric" : 1.3245098039215686
+    "aggregatedMetric" : 1.06574892130676
   }, {
     "settings" : {
-      "metric" : "par",
+      "metric" : "par, par",
       "improvement" : 0.5,
       "memory" : 3
     },
     "clusters" : [ {
       "id" : 0,
       "name" : "0",
-      "syntheticCenter" : [ 4, 1, 3, 7 ],
-      "points" : [ [ 4, 1, 3, 7 ] ],
-      "metric" : 1.8666666666666667
+      "syntheticCenter" : [ 4, 9, 5, 8 ],
+      "points" : [ [ 4, 1, 3, 7 ], [ 0, 8, 2, 1 ] ],
+      "metric" : 1.3846153846153846
     }, {
       "id" : 5,
       "name" : "5",
-      "syntheticCenter" : [ 7, 7, 7, 7 ],
-      "points" : [ [ 0, 7, 7, 0 ], [ 7, 0, 0, 7 ] ],
-      "metric" : 1
+      "syntheticCenter" : [ 7, 0, 3, 4 ],
+      "points" : [ [ 7, 0, 3, 4 ] ],
+      "metric" : 2
     }, {
       "id" : 1,
       "name" : "1",
-      "syntheticCenter" : [ 10, 9, 10, 11 ],
-      "points" : [ [ 8, 2, 0, 1 ], [ 1, 7, 8, 10 ], [ 1, 0, 2, 0 ] ],
-      "metric" : 1.1
+      "syntheticCenter" : [ 0, 7, 4, 3 ],
+      "points" : [ [ 0, 7, 4, 3 ] ],
+      "metric" : 2
     }, {
       "id" : 2,
       "name" : "2",
-      "syntheticCenter" : [ 10, 10, 10, 10 ],
-      "points" : [ [ 0, 10, 0, 10 ], [ 10, 0, 10, 0 ] ],
-      "metric" : 1
+      "syntheticCenter" : [ 34, 30, 34, 35 ],
+      "points" : [ [ 1, 0, 2, 0 ], [ 0, 12, 12, 12 ], [ 28, 11, 12, 17 ], [ 5, 7, 8, 6 ] ],
+      "metric" : 1.0526315789473684
     }, {
       "id" : 3,
       "name" : "3",
-      "syntheticCenter" : [ 11, 28, 12, 17 ],
-      "points" : [ [ 11, 28, 12, 17 ] ],
-      "metric" : 1.6470588235294117
+      "syntheticCenter" : [ 0, 10, 5, 5 ],
+      "points" : [ [ 0, 10, 5, 5 ] ],
+      "metric" : 2
     }, {
       "id" : 4,
       "name" : "4",
-      "syntheticCenter" : [ 0, 12, 12, 12 ],
-      "points" : [ [ 0, 12, 12, 12 ] ],
-      "metric" : 1.3333333333333333
+      "syntheticCenter" : [ 10, 0, 5, 5 ],
+      "points" : [ [ 10, 0, 5, 5 ] ],
+      "metric" : 2
     } ],
-    "aggregatedMetric" : 1.3245098039215686
+    "aggregatedMetric" : 1.1497284716834755
   } ]
 } ]
